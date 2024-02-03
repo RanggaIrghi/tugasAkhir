@@ -359,12 +359,12 @@
 
             if (wheels) {
                 if (! current.includes("-wheels")) {
-                    // document.querySelector("#" + showImg + " img").src = current.split(".")[0] + current.split(".")[1] + current.split(".")[2] + "-wheels.webp";
+                    document.querySelector("#" + showImg + " img").src = current.split("-")[0] + "-" + current.split("-")[1].split(".")[0] + "-wheels.webp";
                 }
             } else {
                 if (current.includes("-wheels")) {
                     // console.log(current.split("-")[0] + current.split("-")[1] + ".webp");
-                    // document.querySelector("#" + showImg + " img").src = current.split(".")[0] +   + "-" + current.split("-")[1] + ".webp";
+                    document.querySelector("#" + showImg + " img").src = current.split("-")[0] + "-" + current.split("-")[1] + ".webp";
                 } 
             }
 	        document.getElementById(showImg).style.display = "block";
