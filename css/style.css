@@ -1,0 +1,39 @@
+.bgimgContent {
+    background-image: url("css/img/porsche911.jpg");
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bgimg911gt3rs1 {
+    background-image: url("css/img/porsche-model2.jpg");
+    background-position: center;
+    height: 100%;
+}
+
+.bgimg911gt3rs2 {
+    background-image: url("img/porsche-model3.jpg");
+    background-position: center;
+    height: 100%;
+}
+
+.bgimg911gt3rs3 {
+    background-image: url("img/porsche-model4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bgimg911gt3rs4 {
+    background-image: url("img/porsche-photo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bgimg911gt3rs5 {
+    background-image: url("img/porsche-spoiler.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
